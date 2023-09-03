@@ -1,0 +1,30 @@
+.coloumn{
+    border: 1px solid black;
+    padding: 30px 30px 30px 30px;
+}
+
+#decision{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.refresh{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* border: 1px solid red;  */
+}
+
+.footer{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.main-box{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
