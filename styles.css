@@ -1,5 +1,11 @@
+body{
+    background-image: url("./download.png");
+    background-size: cover;
+}
+
 .coloumn{
     border: 1px solid black;
+    border-radius: 5px;
     padding: 30px 30px 30px 30px;
 }
 
@@ -7,6 +13,7 @@
     /* background-color: red; */
     display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .refresh{
@@ -14,6 +21,10 @@
     justify-content: center;
     padding: 20px;
     /* border: 1px solid red;  */
+}
+#newGame{
+    background-color: rgb(206, 203, 111);
+    border-radius: 3px;
 }
 
 .footer{

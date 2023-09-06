@@ -267,8 +267,8 @@ const decision = document.getElementById('decision')
 
 // function to check if game is won or draw 
 function check(array){
-    if(array[0]==array[1] && array[0]==array[2]){
-        // 1st row condition 
+    if(array[0]==array[1] && a11.textContent==a13.textContent){
+        // 1st row condition or we can check the condition like above
         decision.textContent=`player with ${array[0]} is the winner`;
     }
     else if(array[3]==array[4] && array[3]==array[5]){
@@ -356,7 +356,16 @@ function completed(array){
 var newGame = document.getElementById('newGame');
 
 newGame.addEventListener('click', function(){
-    if(confirm("Do you want to Restart the game?")){
+    if(!completed(array)){
+        if(confirm("Do you want to Restart the game?")){
+            location.reload();
+        }
+    }
+    else{
         location.reload();
     }
+    
 });
+
+
+
