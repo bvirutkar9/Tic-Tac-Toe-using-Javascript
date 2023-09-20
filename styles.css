@@ -1,5 +1,5 @@
 body{
-    background-image: url("./download.png");
+    background-image: url("background for tictactoe.jpg");
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@ body{
     /* border: 1px solid red;  */
 }
 #newGame{
-    background-color: rgb(206, 203, 111);
+    background-color:skyblue;
     border-radius: 3px;
 }
 
